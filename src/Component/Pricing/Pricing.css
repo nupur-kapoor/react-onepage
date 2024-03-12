@@ -1,0 +1,111 @@
+.prmain
+{
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+.prmain h3
+{
+    color: rgb(96, 183, 218);;
+}
+
+.prmain p
+{
+    width: 40%;
+    margin: 15px auto;
+    word-spacing: 1px;
+    /* letter-spacing: 1px; */
+
+
+}
+
+.prmain span button
+{
+     padding:10px 20px;
+     border: none;
+     outline: none;
+     margin: 0px 5px ;
+     border-radius: 30px;
+     cursor: pointer;
+}
+.prmain #best
+{
+ background-color: rgb(96, 183, 218);
+ color: #fff;
+}
+
+.pr-content
+{
+    /* background-color: brown; */
+    max-width: 1100px;
+    width: 100%;
+    padding: 10px;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.pr-cards
+{
+    padding: 45px 20px;
+    width: calc(33% - 10px);
+    /* background-color: hotpink; */
+    background-color: whitesmoke;
+    box-shadow: 0px 10px 10px 0px rgb(234, 216, 216);
+    border-radius: 20px;
+    transition: 0.4s all ease-in-out;
+}
+
+.pr-cards h3{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.pr-cards span
+{
+    font-size: 30px;
+    color: rgb(96, 183, 218);
+    text-align: center;
+}
+
+.pr-cards h5
+{
+    font-size: 1rem;
+    text-align: center;
+    font-weight: 300;
+    margin: 10px;
+}
+
+.pr-cards button
+{
+    padding: 10px 30px;
+    background-color: whitesmoke;
+    color: rgb(96, 183, 218);
+    border: none;
+    margin: 10px 0px;
+
+}
+
+.pr-cards:hover{
+    background-color: rgb(96, 183, 218);
+    color:#fff;
+}
+
+
+@media (max-width:800px) {
+    .pr-cards
+    {
+        width:calc(50% - 5px);
+        margin-bottom: 5px;
+    }
+}
+
+@media (max-width:600px) {
+    .pr-cards
+    {
+        width: 100%;
+        margin: 5px;
+    }
+}

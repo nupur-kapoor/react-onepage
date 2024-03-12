@@ -1,0 +1,100 @@
+.Platforms
+{
+    padding: 20px;
+    /* background-color: blue; */
+    width: 100%;
+}
+
+.Platforms-container{
+    max-width: 1100px;
+    width: 100%;
+    margin: auto;
+    /* background-color: aquamarine; */
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Platforms-container img 
+{
+    width: 150px;
+    height: 80px;
+    object-fit: cover;
+}
+
+.abt-us
+{
+    max-width: 1100px;
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.abt-us .abt-left
+{
+    width: calc(50% - 15px);
+    height: 100%;
+    padding: 20px;
+    /* background-color: rgba(0, 0, 0, 0.372); */
+    position: relative;
+}
+
+.abt-us .abt-right
+{
+    width: calc(50% - 15px);
+    height: 100%;
+    padding: 10px;
+    /* background-color: rgba(122, 39, 39, 0.372); */
+}
+
+.abt-right h2
+{
+    color: rgb(96, 183, 218);
+    margin: 10px 0px;
+}
+
+.abt-right h1
+{
+    font-size: 2.3rem;
+    font-weight: 600;
+    margin: 15px 0px;
+}
+
+.abt-right .btn
+{
+    margin: 20px 0px;
+}
+
+
+ .abt-left img 
+{
+ width: 200px;   
+ height: 200px;
+ object-fit: cover;
+ position: absolute;
+ left: 20%;
+ border-radius: 20px;
+}
+
+.itwo
+{
+    position: absolute;
+     right: 45%;
+     bottom: -250%;
+}
+
+
+@media (max-width:650px) {
+    .abt-left
+    {
+        width: 100%;
+    }
+
+    .abt-right{
+        width: 100%;
+    }
+}

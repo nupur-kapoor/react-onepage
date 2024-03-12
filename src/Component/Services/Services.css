@@ -1,0 +1,150 @@
+.main-sr
+{
+    width: 100%;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+.main-sr #sr-head
+{
+    text-align: center;
+}
+
+.sr-content
+{
+    max-width: 1100px;
+    width: 100%;
+    padding: 20px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.sr-card
+{
+    width: calc(33% - 15px);
+    border-radius: 10px;
+    background-color: rgba(128, 128, 128, 0.158);
+    padding: 10px;
+}
+
+.sr-card:hover
+{
+    background-color: rgb(96, 183, 218);
+    transition: 0.4s ease-in-out;
+    cursor: pointer;
+}
+
+.sr-card i
+{
+    font-size: 3rem;
+}
+
+.sr-card h2
+{
+    margin: 10px 0px;
+}
+
+.sr-card p
+{
+    word-spacing: 1px;
+}
+@media (max-width:700px) {
+    .sr-card{
+        width: 100%;
+        margin: 10px 0px;
+    }
+
+}
+
+@media (max-width:800px) {
+    .idea-content .idea-text
+    {
+        width: 100%;
+    }
+    .idea-content .idea-img
+    {
+        width: 100%;
+        margin: auto;
+    }
+}
+/* ---------------------------------- */
+.idea
+{
+    padding: 10px;
+    width: 100%;
+    /* background-color: bisque; */
+}
+
+.idea-content
+{
+    max-width: 1100px;
+    width: 100%;
+    padding: 10px;
+    margin: auto;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.idea-text
+{
+    padding: 20px;
+    width: calc(50% - 10px);    
+}
+
+.idea-img
+{
+    padding: 10px;
+    width: calc(50% - 10px);
+    /* background-color: chartreuse; */
+}
+
+.idea-img img
+{
+ width: 100%;
+    height: 300px;
+    border-radius: 10px;
+
+}
+
+.idea-text #blue
+{
+  font-size: 35px;
+  color: rgb(96, 183, 218);
+  margin-bottom: 15px;
+}
+
+.idea-text p
+{
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+
+.idea-part
+{
+    padding: 10px;
+    width: calc(50% - 10px);
+    margin-right: 5px;
+    border-radius: 10px;
+    background-color:gainsboro;
+    display: inline-block;
+    margin-top: 20px;
+}
+.idea-part span
+{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.idea-part i
+{
+    font-size: 20px;
+}
+
+.idea-part:hover{
+    background-color: rgb(96, 183, 218);
+    transition: 0.4s all ease-in-out;
+}
